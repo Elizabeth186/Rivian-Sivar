@@ -7,6 +7,7 @@ import HomeScreen from './HomeScreen';
 
 
 
+<<<<<<< HEAD
 
 function Splash({ navigation }) {
 
@@ -21,6 +22,21 @@ function Splash({ navigation }) {
         source={require("./assets/Logo.png")} />
     </View>
   )
+=======
+function Splash({navigation}){
+
+    setTimeout(()=>{
+       navigation.navigate('Login')
+            }, 3000);
+
+return(
+  <View style={{ alignItems:'center'}}>
+      <Image  
+       style={{ width:'100%', height: '100%', marginBottom: 15 }}
+        source={require("./assets/Logo.png") }/>
+  </View>
+)
+>>>>>>> a667be7c6fd14d41896193bb2a579454f698958d
 }
 
 const Stack = createNativeStackNavigator();
