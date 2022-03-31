@@ -19,7 +19,7 @@ const imagenes = [
 // colocando dimensiones
 const width = Dimensions.get("window").width;
 const height = Dimensions.get("window").height;
-// declarando caracteristicas del contenedor de imagen
+// declarando caracteristicas del contenedor de image
 const ancho_del_contenedor = width * 0.7;
 // indicando las imagenes visibles en la pantalla
 const espacio_contenedores = (width - ancho_del_contenedor) / 2;
